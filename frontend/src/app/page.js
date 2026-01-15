@@ -1,6 +1,6 @@
-import Header from "../components/organisms/Header";
-import FlowStrip from "../components/organisms/FlowStrip";
-import ComponentGrid from "../components/organisms/ComponentGrid";
+import Header from "@/components/organisms/Header";
+import FlowStrip from "@/components/organisms/FlowStrip";
+import ComponentGrid from "@/components/organisms/ComponentGrid";
 
 const signals = [
   {
