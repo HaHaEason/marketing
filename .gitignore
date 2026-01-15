@@ -12,9 +12,20 @@ backend/.env
 backend/.env.prod
 backend/.env.test
 
+# Frontend env files
+frontend/.env
+frontend/.env.prod
+frontend/.env.test
+
 # Logs and PID files
 backend/var/log/
 backend/var/run/
+frontend/var/log/
+frontend/var/run/
+
+# Frontend build artifacts
+frontend/node_modules/
+frontend/.next/
 
 # OS
 .DS_Store
