@@ -77,3 +77,36 @@
     *   **Project MCP 驱动**: 不依赖静态文档驱动开发。需求来源直接对接 Project MCP 工具提供的 Feature 和 Task 数据。
 *   **测试驱动**:
     *   关键业务逻辑（尤其是内容生成算法）需编写单元测试。
+
+## 4. Backend 操作
+
+### Start
+
+```bash
+cd backend
+./scripts/start_backend.sh --reload
+```
+
+### Stop
+
+```bash
+cd backend
+./scripts/stop_backend.sh
+```
+
+### Environment
+
+Set `APP_ENV` to select config:
+
+- `dev` uses `backend/.env`
+- `prod` uses `backend/.env.prod`
+- `test` uses `backend/.env.test`
+
+`UVICORN_HOST` and `UVICORN_PORT` control the bind address/port.
+
+### Tests
+
+```bash
+cd backend
+uv run pytest
+```

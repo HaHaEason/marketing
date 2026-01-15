@@ -1,0 +1,18 @@
+[project]
+name = "marketing-backend"
+version = "0.1.0"
+description = "Backend for marketing content generation platform"
+requires-python = "==3.12.*"
+
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn>=0.27",
+  "psycopg>=3.1",
+  "pydantic>=2.6",
+  "pydantic-settings>=2.2",
+  "python-dotenv>=1.0",
+  "pytest>=8.0",
+]
+
+[tool.uv]
+package = false

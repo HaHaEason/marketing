@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.venv/
+
+# Env files
+backend/.env
+backend/.env.prod
+backend/.env.test
+
+# Logs and PID files
+backend/var/log/
+backend/var/run/
+
+# OS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
